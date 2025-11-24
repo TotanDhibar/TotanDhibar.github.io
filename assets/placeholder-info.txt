@@ -1,0 +1,15 @@
+This folder contains placeholder images for the website.
+
+To add real images:
+1. Replace placeholder files with actual images
+2. Recommended image formats: JPG or PNG
+3. Recommended sizes:
+   - hero-bg.jpg: 1920x1080 px (hero background)
+   - logo.png: 200x200 px (company logo)
+   - project photos: 800x600 px minimum
+   - client logos: 300x200 px
+
+Image naming convention:
+- hero-bg.jpg - Main hero background
+- project-1.jpg, project-2.jpg, etc. - Project photos
+- client-logo-1.png, etc. - Client logos
