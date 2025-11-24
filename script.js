@@ -91,11 +91,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
             const message = document.getElementById('message').value;
             
             // Basic validation
-            if (!name || !email || !message) {
-                alert('Please fill in all required fields (Name, Email, and Message).');
+            if (!name || !email || !subject || !message) {
+                alert('Please fill in all required fields (Name, Email, Subject, and Message).');
                 return;
             }
             
@@ -112,6 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: name,
                 email: email,
                 phone: phone,
+                subject: subject,
                 message: message,
                 timestamp: new Date().toISOString()
             };
